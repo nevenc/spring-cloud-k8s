@@ -7,6 +7,7 @@ generatorOptions:
 
 resources:
   - namespace.yaml
+  - native-message-service/k8s/service-account.yml
   - native-message-service/k8s/message-service.yaml
+  - native-billboard-client/k8s/service-account.yml
   - native-billboard-client/k8s/billboard-client.yaml
-
